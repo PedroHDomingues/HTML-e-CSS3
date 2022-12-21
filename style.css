@@ -101,7 +101,7 @@ main {
 }
 
 form {
-    margin: 40px 0;
+    margin: 40px 40px 0 40px;
 }
 
 form label, form legend {
@@ -122,7 +122,7 @@ form label, form legend {
 }
 
 .enviar {
-    width: 40%;
+    width: 15%;
     padding: 15px 0;
     background: orange;
     color: white;
@@ -140,7 +140,7 @@ form label, form legend {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 0 40px 40px;
 }
 
 thead {
@@ -252,7 +252,7 @@ td, th {
 }
 
 @media screen and (max-width: 400px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .enviar{
         width: auto;
     }
 
@@ -271,6 +271,8 @@ td, th {
     ul {
         width: 100%;
     }
+    
+    
 
     .produtos li {
         width: 96%;
@@ -278,5 +280,7 @@ td, th {
         
     }
 
-    
+    .input-pradrao {
+        width: 80%;
+    }
 }
